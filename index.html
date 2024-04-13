@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Formulario Responsivo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario Responsivo</h1>
+        <form>
+            <div class="form-group"> <label for="nombre">Nombre:</label> <input type="text" class="form-control"
+                    id="nombre" placeholder="Ingrese su nombre"> </div>
+            <div class="form-group"> <label for="correo">Correo electrónico:</label> <input type="email"
+                    class="form-control" id="correo" placeholder="Ingrese su correo electrónico"> </div>
+            <div class="form-group"> <label for="fecha-nacimiento">Fecha de nacimiento:</label> <input type="date"
+                    class="form-control" id="fecha-nacimiento"> </div>
+            <div class="form-group"> <label for="edad">Edad:</label> <input type="number" class="form-control" id="edad"
+                    placeholder="Ingrese su edad"> </div>
+            <div class="form-group"> <label for="imagen">Cargar imagen:</label> <input type="file"
+                    class="form-control-file" id="imagen"> </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto"> <button type="submit" class="btn btn-danger">Registrar</button> </div>
+                </div>
+            </div>
+        </form>
+    </div> <br>
+    <div class="container">
+        <div class="text-center"> <img src="image/example.jpeg" class="mx-auto" alt="Your Image"> </div>
+    </div>
+    <div class="text-center">
+        <h1>Tu letra centrada</h1>
+    </div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>25</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>30</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mike Johnson</td>
+                    <td>35</td>
+                    <td>mike@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Bienvenido</h1>
+                <p>Esta es una página responsiva utilizando Bootstrap.</p>
+            </div>
+            <div class="col-md-6"> <img src="image/example.jpeg" alt="Imagen"> </div>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"> <!-- Indicadores -->
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul> <!-- Slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active"> <img src="image/example.jpeg" alt="Imagen 1"> </div>
+            <div class="carousel-item"> <img src="image/example.jpeg" alt="Imagen 2"> </div>
+            <div class="carousel-item"> <img src="image/example.jpeg" alt="Imagen 3"> </div>
+        </div> <!-- Controles --> <a class="carousel-control-prev" href="#myCarousel" data-slide="prev"> <span
+                class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next" href="#myCarousel"
+            data-slide="next"> <span class="carousel-control-next-icon"></span> </a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
